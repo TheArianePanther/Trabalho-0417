@@ -1,0 +1,129 @@
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+    }
+
+#logo {
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#algo{
+    text-align-last: center;
+    font-size: large;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    border: 2px solid #fff; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(44,121,175,1) 50%, rgba(0,125,255,1) 94%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+    
+}
+
+#estrutura {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#corpo1 {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    border-top: 2px solid rgb(255, 255, 255); 
+    padding-top: 10px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#corpo2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+
+img#logo {
+    max-width: 100%;
+    height: 150px;
+    width: 700px;;
+}
+
+#corpo {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 10px;
+
+    background-color: white;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    border-top: 2px solid rgb(255, 255, 255); 
+    padding-top: 10px; 
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+}
+
+button {
+    background-color: rgb(19, 18, 19); ;
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    display: inline-block;
+    margin: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+
+button:hover {
+    background-color: rgb(34, 33, 34); 
+}
